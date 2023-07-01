@@ -4,7 +4,7 @@
 
 对象封装结构
 
-![对象封装结构](./stuc.png "对象封装结构")
+![对象封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/table/stuc.png "对象封装结构")
 
 antd中固定表头的表格，和普通的表格有较大的区别，所以封装了一个普通表格，还封装了一个固定行列的表格。
 
@@ -30,7 +30,7 @@ table组件的主要操作包括：
 
 【[antd v5 的 table 组件](https://ant-design.antgroup.com/components/table-cn)】的执行效果
 
-![执行效果](./antd.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/table/antd.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -55,7 +55,7 @@ WebGetCellValue==固定表头==table.固定表头==FullName=Edward 4==Column 2==
 
 【[antd vue v3 的 table 组件](https://www.antdv.com/components/table-cn)】的执行效果
 
-![执行效果](./antdv.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/table/antdv.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -81,7 +81,7 @@ WebGetCellValue==固定表头==table.固定表头==FullName==Edrward 4==Column 2
 
 【[element ui 2 的 table 组件](https://element.eleme.cn/#/zh-CN/component/table)】的执行效果
 
-![执行效果](./eui.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/table/eui.gif "执行效果")
 
 
 **自动化脚本**

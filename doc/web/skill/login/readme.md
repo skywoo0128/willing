@@ -128,7 +128,7 @@ public static void login( String 用户名, String 密码 )
 ```
 
 **执行效果**
-![执行效果图](./login.gif "执行效果图")
+![执行效果图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/skill/login/login.gif "执行效果图")
 
 login以前，被测系统打开了一个上传文件的窗口、一个js生成的弹窗，打开了一个功能页面，左侧功能菜单被折叠。login执行完成后，系统成功被复原，跳转到了首页。
 

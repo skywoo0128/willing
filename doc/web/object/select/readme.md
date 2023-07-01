@@ -4,7 +4,7 @@
 
 对象封装结构
 
-![对象封装结构](./stuc.png "对象封装结构")
+![对象封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/select/stuc.png "对象封装结构")
 
 
 ## 基本用法
@@ -22,7 +22,7 @@ select组件的主要操作包括：
 
 【[antd v5 的 select 组件](https://ant-design.antgroup.com/components/select-cn)】的执行效果
 
-![执行效果](./antd.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/select/antd.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -49,7 +49,7 @@ WebGetValue==复选框10==select.复选框10==
 
 【[antd vue v3 的 select 组件](https://www.antdv.com/components/select-cn)】的执行效果
 
-![执行效果](./antdv.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/select/antdv.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -69,7 +69,7 @@ WebGetValue==多选==select.多选==
 
 【[element ui 2 的 select 组件](https://element.eleme.cn/#/zh-CN/component/select)】的执行效果
 
-![执行效果](./eui.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/select/eui.gif "执行效果")
 
 **自动化脚本**
 ```

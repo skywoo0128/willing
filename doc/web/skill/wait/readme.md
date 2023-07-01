@@ -11,7 +11,7 @@
 selenium提供了两种等待方式（显式等待和隐式等待），操作系统提供了sleep这种强制等待的指令，具体是什么意思我就不解释了，因为一个我也不知道这些有什么用，另一个网上有大量粗糙的文章解释这些内容。
 
 我想说的是如果你要做一个能够稳定执行的脚本，selenium提供的这两种等待方式有用吗。不信的话你可以试一下【[transfer](https://ant-design.antgroup.com/components/transfer-cn)】这个组件。你打开这个网页，然后用鼠标点击第一个transfer框内的那些checkbox，你发现能点中吗。贴一个执行效果图（为了节约时间，已经删除了很多帧）
-![执行效果图](./wait.gif "执行效果图")
+![执行效果图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/skill/wait/wait.gif "执行效果图")
 脚本很简单
 ```
 WebSetValue==transfer.穿梭框==content2,content3,content14,content15,content16==

@@ -4,7 +4,7 @@
 
 对象封装结构
 
-![对象封装结构](./stuc.png "对象封装结构")
+![对象封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/upload/stuc.png "对象封装结构")
 
 Upload组件从WebObject派生，支持文件上传，检查文件上传是否完成。
 
@@ -32,7 +32,7 @@ setValue支持二级命令，包括：删除，预览。
 
 【[antd v5 的 upload 组件](https://ant-design.antgroup.com/components/upload-cn)】的执行效果
 
-![执行效果](./antd.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/upload/antd.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -54,7 +54,7 @@ WebSetValue==upload.文件上传3==预览==image.png==
 
 【[antd vue v3 的 upload 组件](https://www.antdv.com/components/upload-cn)】的执行效果
 
-![执行效果](./antdv.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/upload/antdv.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -80,7 +80,7 @@ WebSetValue==upload.上传图片文件==预览==image.png==
 
 【[element ui 2 的 upload 组件](https://element.eleme.cn/#/zh-CN/component/upload)】的执行效果
 
-![执行效果](./eui.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/upload/eui.gif "执行效果")
 
 **自动化脚本**
 ```

@@ -4,7 +4,7 @@
 
 对象封装结构
 
-![对象封装结构](./stuc.png "对象封装结构")
+![对象封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/cascader/stuc.png "对象封装结构")
 
 
 ## 基本用法
@@ -22,7 +22,7 @@ cascader组件的主要操作包括：
 
 【[antd v5 的 cascader 组件](https://ant-design.antgroup.com/components/calendar-cn)】的执行效果
 
-![执行效果](./antd.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/cascader/antd.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -44,7 +44,7 @@ WebGetValue==多选==cascader.多选==
 
 【[antd vue v3 的 cascader 组件](https://www.antdv.com/components/cascader-cn)】的执行效果
 
-![执行效果](./antdv.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/cascader/antdv.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -67,7 +67,7 @@ WebGetValue==多选==cascader.多选==
 
 【[element ui 2 的 cascader 组件](https://element.eleme.cn/#/zh-CN/component/cascader)】的执行效果
 
-![执行效果](./eui.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/cascader/eui.gif "执行效果")
 
 **自动化脚本**
 ```

@@ -5,7 +5,6 @@ matrix是一个支持WEB、APP、接口测试和银行柜面系统的手工和�
 通过对各种通用UI组件库 【[antd v5 组件库](https://ant-design.antgroup.com/components/overview-cn)】、【[antd vue v3 组件库](https://www.antdv.com/components/overview-cn)】、【[element ui2 组件库](https://element.eleme.cn/#/zh-CN/component/)】 的封装，matrix能完美支持react、vue等单页应用的自动化测试。
 
 ## 架构图
-![架构图](./doc/img/framework.png "架构图")
 ![架构图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/img/framework.png "架构图")
 
 工具使用了四层结构。
@@ -30,7 +29,6 @@ matrix是一个支持WEB、APP、接口测试和银行柜面系统的手工和�
 
 demo测试网站：[antd pro](https://preview.pro.ant.design/)
 
-![脚本执行效果图](./doc/frame/abs/execute.gif "脚本执行效果图")
 ![脚本执行效果图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/frame/abs/execute.gif "脚本执行效果图")
 
 ### 组件库封装

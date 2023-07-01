@@ -4,7 +4,7 @@
 
 对象封装结构
 
-![对象封装结构](./stuc.png "对象封装结构")
+![对象封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/tree/stuc.png "对象封装结构")
 
 
 ## 基本用法
@@ -25,7 +25,7 @@ tree组件的主要操作包括：
 
 【[antd v5 的 tree 组件](https://ant-design.antgroup.com/components/tree-cn)】的执行效果
 
-![执行效果](./antd.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/tree/antd.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -46,7 +46,7 @@ WebTreeClick==tree.简单树==0-0/0-0-1/0-0-1-1==
 
 【[antd vue v3 的 tree 组件](https://www.antdv.com/components/tree-cn)】的执行效果
 
-![执行效果](./antdv.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/tree/antdv.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -66,7 +66,7 @@ WebTreeGetValue==简单树==tree.简单树==
 
 【[element ui 2 的 tree 组件](https://element.eleme.cn/#/zh-CN/component/tree)】的执行效果
 
-![执行效果](./eui.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/tree/eui.gif "执行效果")
 
 最后的增加和删除，执行速度太快，中间插入了300ms的延迟
 

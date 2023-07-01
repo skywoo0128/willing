@@ -4,7 +4,7 @@
 
 对象封装结构
 
-![对象封装结构](./stuc.png "对象封装结构")
+![对象封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/navmenu/stuc.png "对象封装结构")
 
 包含两种组件，顶部菜单从WebObject派生，左侧功能树从WebTree派生
 
@@ -22,7 +22,7 @@ NavMenu和NavTree组件的主要操作包括：
 
 【[antd v5 的 menu 组件](https://ant-design.antgroup.com/components/menu-cn)】的执行效果
 
-![执行效果](./antd.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/navmenu/antd.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -43,7 +43,7 @@ WebSetValue==menu.导航菜单==Navigation Three - Submenu/Option3==
 
 【[antd vue v3 的 menu 组件](https://www.antdv.com/components/menu-cn)】的执行效果
 
-![执行效果](./antdv.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/navmenu/antdv.gif "执行效果")
 
 **自动化脚本**
 ```
@@ -65,7 +65,7 @@ WebSetValue==menu.导航菜单==Navigation Three - Submenu/Option3==
 
 【[element ui 2 的 NavMenu 组件](https://element.eleme.cn/#/zh-CN/component/menu)】的执行效果
 
-![执行效果](./eui.gif "执行效果")
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/navmenu/eui.gif "执行效果")
 
 **自动化脚本**
 ```

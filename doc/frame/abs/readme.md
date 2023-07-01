@@ -55,7 +55,7 @@ matrix需要依赖selenium实现和浏览器的交互，但不会包括selenium�
 先看一下基本效果。demo测试网站：[antd pro](https://preview.pro.ant.design/)
 
 *脚本执行效果图*
-![脚本执行效果图](./execute.gif "脚本执行效果图")
+![脚本执行效果图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/frame/abs/execute.gif "脚本执行效果图")
 因为每个指令都包含了执行后的正确性检查及错误重试机制，所以会影响执行速度，但是非常稳定。脚本中不会有各种等待，尤其是强制等待。
 
 # groovy脚本
@@ -167,7 +167,7 @@ WebClick==高级表单.提交==
 
 # 对象库维护
 脚本采用对象库方式实现，对象库的维护页面
-![对象库维护](./obj-lib.gif "对象库维护")
+![对象库维护](https://raw.gitmirror.com/skywoo0128/willing/main/doc/frame/abs/obj-lib.gif "对象库维护")
 这个功能参考了UI Automation的设计思路，先从浏览器中提取DOM结构和截图，然后手工选择对象并添加。
 
 最早的版本能自动提取所有对象，表单页面应该问题不大。针对很多数据采集页面，比如订灰机票，会从页面上提取大量的瞄点（link）对象，所以选择了手工选择对象的方式。
@@ -176,6 +176,6 @@ WebClick==高级表单.提交==
 最后看一下对象表的内容
 完全没有使用xpath或css selector，对象都是通过（可见）特征查找，所以即使只有页面原型也能编写自动化脚本。
 
-![对象表](./obj-table.png "对象表")
+![对象表](https://raw.gitmirror.com/skywoo0128/willing/main/doc/frame/abs/obj-table.png "对象表")
 
 以上大部分是WEB自动化测试的功能，接口测试工具做的比较早，后续需要再整理整理，柜面自动化比较成熟，最后再整理吧。

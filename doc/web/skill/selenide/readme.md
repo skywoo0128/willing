@@ -92,7 +92,7 @@ Actions.moveToElement(itemNode).click().build().perform();
 
 selenide的结构图
 
-![selenide的结构图](./selenide.png "selenide的结构图")
+![selenide的结构图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/skill/selenide/selenide.png "selenide的结构图")
 
 SelenideElementProxy是一个proxy，并不是一个实现类。SelenideElement提供了很多api，这些api都会调用SelenideElementProxy中的同一个方法（invoke），SelenideElementProxy在invoke实现了总控和错误重试，根据api的名称查找对应的Command，并执行Command。
 

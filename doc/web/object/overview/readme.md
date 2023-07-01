@@ -14,7 +14,7 @@
 # 对象和关键字封装
 
 关键字六层封装，组件采用四层封装
-![关键字封装结构](./obj-stuc.png "关键字封装结构")
+![关键字封装结构](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/overview/obj-stuc.png "关键字封装结构")
 
 1. 关键字：提供一套完备的自动化关键字，包括组件（对象）操作关键字、selenide封装的WebElement操作关键字、弹窗和iframe等窗口操作关键字、截图和输入文件等系统UI关键字、SQL操作关键字、以及数据处理等非UI的关键字。包括180个WEB关键字和80个非UI关键字，常用关键字不超过10个。
 2. 抽象层：所有组件的根对象（WebNode）、以及所有脚本中可以使用的封装函数。
