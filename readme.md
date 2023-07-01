@@ -6,6 +6,7 @@ matrix是一个支持WEB、APP、接口测试和银行柜面系统的手工和�
 
 ## 架构图
 ![架构图](./doc/img/framework.png "架构图")
+![架构图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/img/framework.png "架构图")
 
 工具使用了四层结构。
 - 驱动层：包括selenium、appium、opencv等自动化基础组件。柜面驱动类似selenium，完成柜面系统的自动化接口。接口网关完成tuxedo、MQ等自动化通讯协议的扩展。win32驱动完成windows下图形界面的自动化接口。
@@ -30,6 +31,7 @@ matrix是一个支持WEB、APP、接口测试和银行柜面系统的手工和�
 demo测试网站：[antd pro](https://preview.pro.ant.design/)
 
 ![脚本执行效果图](./doc/frame/abs/execute.gif "脚本执行效果图")
+![脚本执行效果图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/frame/abs/execute.gif "脚本执行效果图")
 
 ### 组件库封装
 
