@@ -31,21 +31,61 @@ demo测试网站：[antd pro](https://preview.pro.ant.design/)
 
 ![脚本执行效果图](https://raw.gitmirror.com/skywoo0128/willing/main/doc/frame/abs/execute.gif "脚本执行效果图")
 
-### 组件库封装
+### 组件库（对象）封装
 
 [组件封装概述](./doc/web/object/overview/readme.md)
 
-[tree(树形结构) 组件](./doc/web/object/tree/readme.md)
-
-[table(表格) 组件](./doc/web/object/table/readme.md)
-
-[menu(NavMenu) 菜单组件](./doc/web/object/navmenu/readme.md)
+#### 表单
 
 [select 和 selects 组件](./doc/web/object/select/readme.md)
 
 [cascader 和 cascaders 级联选择](./doc/web/object/cascader/readme.md)
 
+[transfer 穿梭框](./doc/web/object/transfer/readme.md)
+
+[treeSelect 和 treeSelects 组件](./doc/web/object/treeselect/readme.md)
+
 [upload 上传文件](./doc/web/object/upload/readme.md)
+
+[switch 开关](./doc/web/object/switch/readme.md)
+
+[slider 滑块](./doc/web/object/slider/readme.md)
+
+[rate 评分](./doc/web/object/rate/readme.md)
+
+#### 日期和时间
+
+[datepicker 选择日期](./doc/web/object/date/readme.md)
+
+[monthpicker 选择月份](./doc/web/object/month/readme.md)
+
+[weekpicker 选择周](./doc/web/object/week/readme.md)
+
+[timepicker 选择时间](./doc/web/object/time/readme.md)
+
+[datetimepicker 选择日期和时间](./doc/web/object/datetime/readme.md)
+
+#### 数据显示
+
+[tree(树形结构) 组件](./doc/web/object/tree/readme.md)
+
+[table(表格) 组件](./doc/web/object/table/readme.md)
+
+[paging 评分](./doc/web/object/paging/readme.md)
+
+[card 评分](./doc/web/object/card/readme.md)
+
+[tags 标签组](./doc/web/object/tags/readme.md)
+
+#### 导航
+
+[menu(NavMenu) 菜单组件](./doc/web/object/navmenu/readme.md)
+
+[dropdown 下拉菜单按钮](./doc/web/object/dropdown/readme.md)
+
+[tabs和Tab 页签](./doc/web/object/tabs/readme.md)
+
+[link 评分](./doc/web/object/link/readme.md)
 
 ### WEB测试小技巧
 
