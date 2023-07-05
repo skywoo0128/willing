@@ -58,6 +58,13 @@ WebSetValue==tags.Tag3==修改==ABC==
 WebSetValue==tags.Unremovable--Tag5==修改==ABC==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTags" desc="标签组" className="cn.lz.web.plugin.antd.obj.AntdTags" typeName="WebObject">
+   <node tag-name="span" class="ant-tag"/>
+</app-tag>
+```
+
 
 ***
 
@@ -75,6 +82,13 @@ WebGetValue==Unremovable==tags.Unremovable==
 
 WebSetValue==tags.Unremovable==增加==Tag5==
 WebGetValue==Unremovable==tags.Unremovable==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvTags" desc="标签组" className="cn.lz.web.plugin.antdv.obj.AntdvTags" typeName="WebObject">
+   <node tag-name="span" class="ant-tag"/>
+</app-tag>
 ```
 
 
@@ -98,6 +112,13 @@ WebSetValue==tags.标签一==增加==标签5==
 WebGetValue==标签一==tags.标签一==
 
 WebSetValue==tags.标签一==标签一,标签5,标签八,标签十==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiTags" desc="标签" className="cn.lz.web.plugin.eui.obj.EuiTags" typeName="WebObject">
+   <node tag-name="span" class="el-tag"/>
+</app-tag>
 ```
 
 ***

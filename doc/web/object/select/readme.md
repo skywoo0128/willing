@@ -42,6 +42,21 @@ WebGetValue==复选框10==select.复选框10==
 ```
 最后一个对象是通过键盘输入的，感觉有点慢。
 
+对象匹配规则
+```xml
+<app-tag name="AntdSelect" desc="单选框" className="cn.lz.web.plugin.antd.obj.AntdSelect" typeName="WebObject">
+   <node tag-name="div" class="ant-select-single">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdSelects" desc="多选框" className="cn.lz.web.plugin.antd.obj.AntdSelects" typeName="WebObject">
+   <node tag-name="div" class="ant-select-multiple">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -59,6 +74,21 @@ WebGetValue==单选==select.单选==
 
 WebSetValue==select.多选==b2,e5==
 WebGetValue==多选==select.多选==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvSelect" desc="单选框" className="cn.lz.web.plugin.antdv.obj.AntdvSelect" typeName="WebObject">
+   <node tag-name="div" class="ant-select-single">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvSelects" desc="多选框" className="cn.lz.web.plugin.antdv.obj.AntdvSelects" typeName="WebObject">
+   <node tag-name="div" class="ant-select-multiple">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
 ```
 
 
@@ -80,6 +110,26 @@ WebGetValue==script==selects.script==
 WebDefPage==select2==功能演示==select2==
 WebSetValue==select2.请选择==双皮奶==
 WebGetValue==请选择==select2.请选择==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiSelect" desc="选择框" className="cn.lz.web.plugin.eui.obj.EuiSelect" typeName="WebObject">
+   <node tag-name="div" class="el-select">
+      <node tag-name="div" class="el-input">
+         <node tag-name="input" type="text" class="el-input__inner"/>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="EuiSelects" desc="多选框" className="cn.lz.web.plugin.eui.obj.EuiSelects" typeName="WebObject">
+   <node tag-name="div" class="el-select">
+      <node tag-name="div" class="el-select__tags"/>
+      <node tag-name="div" class="el-input">
+         <node tag-name="input" type="text" class="el-input__inner"/>
+      </node>
+   </node>
+</app-tag>
 ```
 
 ***

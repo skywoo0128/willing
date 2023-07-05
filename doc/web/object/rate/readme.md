@@ -33,6 +33,13 @@ WebSetValue==rate.选中半星==0.5==
 WebGetValue==选中半星==rate.选中半星==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdRate" desc="评分" className="cn.lz.web.plugin.antd.obj.AntdRate" typeName="WebObject">
+   <node tag-name="ul" class="ant-rate" role="radiogroup"/>
+</app-tag>
+```
+
 
 ***
 
@@ -52,6 +59,13 @@ WebSetValue==rate.半星==4.5==
 WebGetValue==半星==rate.半星==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdvRate" desc="评分" className="cn.lz.web.plugin.antdv.obj.AntdvRate" typeName="WebObject">
+   <node tag-name="ul" class="ant-rate" role="radiogroup"/>
+</app-tag>
+```
+
 
 
 ***
@@ -67,6 +81,13 @@ WebGetValue==半星==rate.半星==
 WebDefPage==rate==功能演示==rate==
 WebSetValue==rate.评分==4==
 WebGetValue==评分==rate.评分==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiRate" desc="评分" className="cn.lz.web.plugin.eui.obj.EuiRate" typeName="WebObject">
+   <node tag-name="div" class="el-rate" role="slider"/>
+</app-tag>
 ```
 
 ***

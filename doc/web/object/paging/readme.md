@@ -60,6 +60,13 @@ WebSetValue==paging.分页条==第一页==1==
 WebSetValue==paging.分页条==每页记录数==20 条/页==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdPaging" desc="分页条" className="cn.lz.web.plugin.antd.obj.AntdPaging" typeName="WebObject">
+   <node tag-name="ul" class="ant-pagination"/>
+</app-tag>
+```
+
 
 ***
 
@@ -82,6 +89,13 @@ WebSetValue==paging.分页条==上一页==1==
 WebSetValue==paging.分页条==最后一页==1==
 WebSetValue==paging.分页条==第一页==1==
 WebSetValue==paging.分页条==每页记录数==10 条/页==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvPaging" desc="分页条" className="cn.lz.web.plugin.antdv.obj.AntdvPaging" typeName="WebObject">
+   <node tag-name="ul" class="ant-pagination"/>
+</app-tag>
 ```
 
 
@@ -108,6 +122,13 @@ WebSetValue==paging.分页条==上一页==1==
 WebSetValue==paging.分页条==最后一页==1==
 WebSetValue==paging.分页条==第一页==1==
 WebSetValue==paging.分页条==每页记录数==200 条/页==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiPaging" desc="分页组件" className="cn.lz.web.plugin.eui.obj.EuiPaging" typeName="WebObject">
+   <node tag-name="div" class="el-pagination"/>
+</app-tag>
 ```
 
 封装element ui组件时，出现了一个意外，通过WebElement.clear和sendkeys时，会产生下面的现象。

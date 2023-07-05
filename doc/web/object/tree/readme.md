@@ -39,6 +39,15 @@ WebTreeGetValue==可选择2==tree.可选择2==
 WebTreeClick==tree.简单树==0-0/0-0-1/0-0-1-1==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTree" desc="树组件" className="cn.lz.web.plugin.antd.obj.AntdTree" typeName="WebTree">
+   <node tag-name="div" class="ant-tree" role="tree">
+      <node tag-name="div" class="ant-tree-list"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -56,6 +65,15 @@ WebTreeIsChecked==isChecked==tree.可选择的目录==parent 1/parent 1-1/sss==
 
 WebTreeClick==tree.简单树==0-0/0-0-1/0-0-1-1==
 WebTreeGetValue==简单树==tree.简单树==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvTree" desc="树组件" className="cn.lz.web.plugin.antdv.obj.AntdvTree" typeName="WebTree">
+   <node tag-name="div" class="ant-tree" role="tree">
+      <node tag-name="div" class="ant-tree-list"/>
+   </node>
+</app-tag>
 ```
 
 
@@ -94,6 +112,13 @@ WebClick==tree内容.树节点Append==
 
 树节点中查找==tree内容.自定义节点==一级 3/二级 3-2==
 WebClick==tree内容.树节点Delete==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiTree" desc="树组件" className="cn.lz.web.plugin.eui.obj.EuiDataTree" typeName="WebTree">
+   <node tag-name="div" class="el-tree" role="tree"/>
+</app-tag>
 ```
 
 ***

@@ -59,6 +59,25 @@ WebSetValue==transfer.树结构==增加==0-1/0-1-0,0-4==
 WebGetValue==树结构==transfer.树结构==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTransfer" desc="穿梭框" className="cn.lz.web.plugin.antd.obj.AntdTransfer" typeName="WebObject">
+   <node tag-name="div" class="ant-transfer">
+      <node tag-name="div" class="ant-transfer-list"/>
+      <node tag-name="div" class="ant-transfer-operation"/>
+      <node tag-name="div" class="ant-transfer-list"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdTransList" desc="穿梭框的选项" className="cn.lz.web.plugin.antd.obj.AntdTransList" typeName="WebObject">
+   <node tag-name="div" class="ant-transfer-list">
+      <node tag-name="div" class="ant-transfer-list-body">
+         <node tag-name="ul" class="ant-transfer-list-content"/>
+      </node>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -87,6 +106,25 @@ WebSetValue==transfer.树结构==增加==0-1/0-1-0,0-0==
 WebGetValue==树结构==transfer.树结构==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdvTransfer" desc="穿梭框" className="cn.lz.web.plugin.antdv.obj.AntdvTransfer" typeName="WebObject">
+   <node tag-name="div" class="ant-transfer">
+      <node tag-name="div" class="ant-transfer-list"/>
+      <node tag-name="div" class="ant-transfer-operation"/>
+      <node tag-name="div" class="ant-transfer-list"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvTransList" desc="穿梭框的选项" className="cn.lz.web.plugin.antdv.obj.AntdvTransList" typeName="WebObject">
+   <node tag-name="div" class="ant-transfer-list">
+      <node tag-name="div" class="ant-transfer-list-body">
+         <node tag-name="ul" class="ant-transfer-list-content"/>
+      </node>
+   </node>
+</app-tag>
+```
+
 
 
 ***
@@ -102,6 +140,17 @@ WebGetValue==树结构==transfer.树结构==
 WebDefPage==transfer==功能演示==transfer==
 WebSetValue==transfer.列表transfer==备选项3,备选项4,备选项13==
 WebGetValue==列表transfer==transfer.列表1013==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiTransfer" desc="穿梭框" className="cn.lz.web.plugin.eui.obj.EuiTransfer" typeName="WebObject">
+   <node tag-name="div" class="el-transfer">
+      <node tag-name="div" class="el-transfer-panel"/>
+      <node tag-name="div" class="el-transfer__buttons"/>
+      <node tag-name="div" class="el-transfer-panel"/>
+   </node>
+</app-tag>
 ```
 
 ***

@@ -34,6 +34,17 @@ WebSetValue==dropdown.Dropdown==2nd menu item==
 WebObjectClick==dropdown.Dropdown==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdDropDownLink" desc="下拉菜单锚点" className="cn.lz.web.plugin.antd.obj.AntdDropDownLink" typeName="WebObject">
+   <node tag-name="*" class="ant-dropdown-trigger"/>
+</app-tag>
+
+<app-tag name="AntdDropDownButton" desc="下拉菜单按钮" className="cn.lz.web.plugin.antd.obj.AntdDropDownButton" typeName="WebObject">
+   <node tag-name="div" class="ant-dropdown-button"/>
+</app-tag>
+```
+
 
 ***
 
@@ -51,6 +62,17 @@ SwitchToWindow==0==
 
 WebSetValue==dropdown.Dropdown==2nd menu item==
 WebObjectClick==dropdown.Dropdown==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvDropDownLink" desc="下拉菜单锚点" className="cn.lz.web.plugin.antdv.obj.AntdvDropDownLink" typeName="WebObject">
+   <node tag-name="*" class="ant-dropdown-trigger"/>
+</app-tag>
+
+<app-tag name="AntdvDropDownButton" desc="下拉菜单按钮" className="cn.lz.web.plugin.antdv.obj.AntdvDropDownButton" typeName="WebObject">
+   <node tag-name="div" class="ant-dropdown-button"/>
+</app-tag>
 ```
 
 
@@ -71,6 +93,13 @@ WebSetValue==dropdown.更多菜单==螺蛳粉==
 WebDefPage==dropdown2==功能演示==dropdown2==
 WebSetValue==dropdown2.下拉菜单==螺蛳粉==
 WaitAutoCloseHint==click on item c==3000==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiDropDown" desc="下拉菜单" className="cn.lz.web.plugin.eui.obj.EuiDropDown" typeName="WebObject">
+   <node tag-name="div" class="el-dropdown"/>
+</app-tag>
 ```
 
 ***

@@ -36,6 +36,17 @@ WebTreeGetValue==功能目录==menu.功能目录==
 WebSetValue==menu.导航菜单==Navigation Three - Submenu/Option3==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdNavTree" desc="功能目录" className="cn.lz.web.plugin.antd.obj.AntdNavTree" typeName="WebTree">
+   <node tag-name="ul" class="ant-menu-root" role="menu"/>
+</app-tag>
+
+<app-tag name="AntdNavMenu" desc="功能菜单" className="cn.lz.web.plugin.antd.obj.AntdNavMenu" typeName="WebObject">
+   <node tag-name="ul" class="ant-menu-horizontal"  role="menu"/>
+</app-tag>
+```
+
 
 ***
 
@@ -55,6 +66,17 @@ WebTreeGetValue==功能目录==menu.功能目录==
 
 // 顶部菜单
 WebSetValue==menu.导航菜单==Navigation Three - Submenu/Option3==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvNavTree" desc="功能目录" className="cn.lz.web.plugin.antdv.obj.AntdvNavTree" typeName="WebTree">
+   <node tag-name="ul" class="ant-menu-root" role="menu"/>
+</app-tag>
+
+<app-tag name="AntdvNavMenu" desc="功能菜单" className="cn.lz.web.plugin.antdv.obj.AntdvNavMenu" typeName="WebObject">
+   <node tag-name="ul" class="ant-menu-horizontal"  role="menu"/>
+</app-tag>
 ```
 
 
@@ -82,6 +104,17 @@ WebSetValue==NavMenu2.处理中心==我的工作台/选项4/选项2==
 // 左侧菜单
 WebTreeClick==NavMenu2.导航菜单==导航一/选项2==
 WebTreeGetValue==选中值==NavMenu2.导航菜单==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiNavTree" desc="功能菜单" className="cn.lz.web.plugin.eui.obj.EuiNavTree" typeName="WebTree">
+   <node tag-name="ul" class="el-menu" role="menubar"/>
+</app-tag>
+
+<app-tag name="EuiNavMenu" desc="功能菜单" className="cn.lz.web.plugin.eui.obj.EuiNavMenu" typeName="WebObject">
+   <node tag-name="ul" class="el-menu--horizontal" role="menubar"/>
+</app-tag>
 ```
 
 ***

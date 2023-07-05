@@ -33,6 +33,15 @@ WebSetValue==slider.垂直滑块==30,40==
 WebGetValue==垂直滑块==slider.垂直滑块==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdSlider" desc="滑块" className="cn.lz.web.plugin.antd.obj.AntdSlider" typeName="WebObject">
+   <node tag-name="div" class="ant-slider">
+      <node tag-name="div" class="ant-slider-handle" role="slider"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -55,6 +64,15 @@ WebSetValue==slider.垂直滑块==30,50==
 WebGetValue==垂直滑块==slider.垂直滑块==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdvSlider" desc="滑块" className="cn.lz.web.plugin.antdv.obj.AntdvSlider" typeName="WebObject">
+   <node tag-name="div" class="ant-slider">
+      <node tag-name="div" class="ant-slider-handle" role="slider"/>
+   </node>
+</app-tag>
+```
+
 
 
 ***
@@ -73,6 +91,15 @@ WebGetValue==自定义初始值==slider.自定义初始值==
 
 WebSetValue==slider.隐藏Tooltip==31==
 WebGetValue==隐藏Tooltip==slider.隐藏Tooltip==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiSlider" desc="滑块" className="cn.lz.web.plugin.eui.obj.EuiSlider" typeName="WebObject">
+   <node tag-name="div" class="el-slider" role="slider">
+      <node tag-name="div" class="el-slider__runway"/>
+   </node>
+</app-tag>
 ```
 
 ***

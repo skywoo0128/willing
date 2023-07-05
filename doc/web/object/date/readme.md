@@ -38,6 +38,32 @@ WebSetValue==date.请选择日期==%EMPTY%==
 WebSetValue==date.开始日期==%EMPTY%==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdDatePicker" desc="选择日期" className="cn.lz.web.plugin.antd.obj.AntdDatePicker" typeName="WebObject">
+   <node tag-name="div" class="ant-picker">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+         <node tag-name="span" class="ant-picker-suffix">
+            <node tag-name="span" class="anticon-calendar"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdDateRange" desc="选择日期范围" className="cn.lz.web.plugin.antd.obj.AntdDateRange" typeName="WebObject">
+   <node tag-name="div" class="ant-picker-range">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+      </node>
+      <node tag-name="div" class="ant-picker-input"/>
+      <node tag-name="span" class="ant-picker-suffix">
+         <node tag-name="span" class="anticon-calendar"/>
+      </node>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -62,6 +88,32 @@ WebGetValue==开始日期==date.开始日期==
 # 清空数据
 WebSetValue==date.请选择日期==%EMPTY%==
 WebSetValue==date.开始日期==%EMPTY%==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvDatePicker" desc="选择日期" className="cn.lz.web.plugin.antdv.obj.AntdvDatePicker" typeName="WebObject">
+   <node tag-name="div" class="ant-picker">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+         <node tag-name="span" class="ant-picker-suffix">
+            <node tag-name="span" class="anticon-calendar"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvDateRange" desc="选择日期范围" className="cn.lz.web.plugin.antdv.obj.AntdvDateRange" typeName="WebObject">
+   <node tag-name="div" class="ant-picker-range">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+      </node>
+      <node tag-name="div" class="ant-picker-input"/>
+      <node tag-name="span" class="ant-picker-suffix">
+         <node tag-name="span" class="anticon-calendar"/>
+      </node>
+   </node>
+</app-tag>
 ```
 
 
@@ -94,6 +146,27 @@ WebGetValue==选择日期2==DatePicker2.选择日期2==
 WebDefPage==daterange==功能演示==daterange==
 WebSetValue==daterange.日期范围==20200806,20200916==
 WebSetValue==daterange.日期范围==%EMPTY%==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiDatePicker" desc="选择日期" className="cn.lz.web.plugin.eui.obj.EuiDatePicker" typeName="WebObject">
+   <node tag-name="div" class="el-date-editor--date">
+      <node tag-name="input" type="text" class="el-input__inner"/>
+      <node tag-name="span" class="el-input__prefix">
+         <node tag-name="i" class="el-icon-date"/>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="EuiDateRange" desc="选择日期区间" className="cn.lz.web.plugin.eui.obj.EuiDateRange" typeName="WebObject">
+   <node tag-name="div" class="el-date-editor--daterange">
+      <node tag-name="i" class="el-range__icon"/>
+      <node tag-name="input" type="text" class="el-range-input"/>
+      <node tag-name="span" class="el-range-separator"/>
+      <node tag-name="input" type="text" class="el-range-input"/>
+   </node>
+</app-tag>
 ```
 
 ***

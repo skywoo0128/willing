@@ -37,6 +37,21 @@ WebSetValue==cascader.多选==Light/Number1,Light/Number4,Bamboo/Little/Toy Card
 WebGetValue==多选==cascader.多选==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdCascader" desc="级联选择框" className="cn.lz.web.plugin.antd.obj.AntdCascader" typeName="WebObject">
+   <node tag-name="div" class="ant-cascader">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdCascaders" desc="级联选择框" className="cn.lz.web.plugin.antd.obj.AntdCascaders" typeName="WebObject">
+   <node tag-name="div" class="ant-cascader">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -57,6 +72,21 @@ WebGetValue==带注释==cascader.带注释==
 
 WebSetValue==cascader.多选==Light/Number1,Light/Number4,Bamboo/Little/Toy Cards==
 WebGetValue==多选==cascader.多选==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvCascader" desc="级联选择框" className="cn.lz.web.plugin.antdv.obj.AntdvCascader" typeName="WebObject">
+   <node tag-name="div" class="ant-cascader">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvCascaders" desc="级联选择框" className="cn.lz.web.plugin.antdv.obj.AntdvCascaders" typeName="WebObject">
+   <node tag-name="div" class="ant-cascader">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
 ```
 
 
@@ -87,7 +117,25 @@ WebSetValue==cascader2.默认显示所有Tag==东南 / 江苏 / 苏州,东南 / 
 WebGetValue==默认显示所有Tag==cascader2.默认显示所有Tag==
 ```
 
-element ui2 有多个WebDefPage，是因为这个演示页面不支持长截图，所以对象提取到了多个页面。
+对象匹配规则
+```xml
+<app-tag name="EuiCascader" desc="级联选择框" className="cn.lz.web.plugin.eui.obj.EuiCascader" typeName="WebObject">
+   <node tag-name="div" class="el-cascader">
+      <node tag-name="div" class="el-input">
+         <node tag-name="input" type="text" class="el-input__inner"/>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="EuiCascaders" desc="级联多选择框" className="cn.lz.web.plugin.eui.obj.EuiCascaders" typeName="WebObject">
+   <node tag-name="div" class="el-cascader">
+      <node tag-name="div" class="el-input">
+         <node tag-name="input" class="el-input__inner"/>
+      </node>
+      <node tag-name="div" class="el-cascader__tags"/>
+   </node>
+</app-tag>
+```
 
 ***
 

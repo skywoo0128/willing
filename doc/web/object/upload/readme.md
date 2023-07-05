@@ -47,6 +47,13 @@ WebSetValue==upload.上传文件2==删除==xxx.png==
 WebSetValue==upload.文件上传3==预览==image.png==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdUpload" desc="文件上传" className="cn.lz.web.plugin.antd.obj.AntdUpload" typeName="WebObject">
+   <node tag-name="span" class="ant-upload-wrapper"/>
+</app-tag>
+```
+
 
 ***
 
@@ -72,6 +79,13 @@ WebGetValue==上传图片文件名称==upload.上传图片文件==
 WebSetValue==upload.上传图片文件==预览==image.png==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdvUpload" desc="文件上传" className="cn.lz.web.plugin.antdv.obj.AntdvUpload" typeName="WebObject">
+   <node tag-name="div" class="ant-upload"/>
+</app-tag>
+```
+
 
 
 ***
@@ -94,6 +108,13 @@ WebGetValue==上传文件==upload.上传文件==
 
 WebSetValue==upload.上传图片==删除==food2.jpeg==
 WebGetValue==点击上传==upload.上传图片==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiUpload" desc="文件上传" className="cn.lz.web.plugin.eui.obj.EuiUpload" typeName="WebObject">
+   <node tag-name="div" class="el-upload"/>
+</app-tag>
 ```
 
 ***

@@ -48,6 +48,13 @@ WebObjectClick==card.带图片的卡片--cover==
 WebObjectClick==card.更多内容--edit==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdCard" desc="卡片" className="cn.lz.web.plugin.antd.obj.AntdCard" typeName="WebObject">
+   <node tag-name="div" class="ant-card"/>
+</app-tag>
+```
+
 
 ***
 
@@ -70,6 +77,13 @@ WebObjectClick==card.带图片的卡片--cover==
 WebObjectClick==card.更多内容--edit==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdvCard" desc="卡片" className="cn.lz.web.plugin.antdv.obj.AntdvCard" typeName="WebObject">
+   <node tag-name="div" class="ant-card"/>
+</app-tag>
+```
+
 
 
 ***
@@ -88,6 +102,13 @@ WebObjectClick==card.卡片名称==操作按钮==
 WebDefPage==card2==功能演示==card2==
 对象中查找==card2.带图片--body==
 WebClick==card2.操作按钮==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiCard" desc="卡片" className="cn.lz.web.plugin.eui.obj.EuiCard" typeName="WebObject">
+   <node tag-name="div" class="el-card"/>
+</app-tag>
 ```
 
 ***

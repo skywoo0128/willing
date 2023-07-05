@@ -30,6 +30,16 @@ WebSetValue==switchPage.最简单的用法==false==
 WebGetValue==基本最简单的用法==switchPage.最简单的用法==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdSwitch" desc="开关" className="cn.lz.web.plugin.antd.obj.AntdSwitch" typeName="WebObject">
+   <node tag-name="button" class="ant-switch">
+      <node tag-name="div" class="ant-switch-handle"/>
+      <node tag-name="span" class="ant-switch-inner"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -47,6 +57,16 @@ WebGetValue==基本用法==switchPage.基本用法==
 
 WebSetValue==switchPage.文字开关==false==
 WebGetValue==文字开关==switchPage.文字开关==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvSwitch" desc="开关" className="cn.lz.web.plugin.antdv.obj.AntdvSwitch" typeName="WebObject">
+   <node tag-name="button" class="ant-switch">
+      <node tag-name="div" class="ant-switch-handle"/>
+      <node tag-name="span" class="ant-switch-inner"/>
+   </node>
+</app-tag>
 ```
 
 
@@ -67,6 +87,13 @@ WebGetValue==基本用法==switchPage.基本用法==
 
 WebSetValue==switchPage.按年付费==false==
 WebGetValue==按年付费==switchPage.按年付费==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiSwitch" desc="开关" className="cn.lz.web.plugin.eui.obj.EuiSwitch" typeName="WebObject">
+   <node tag-name="div" class="el-switch" role="switch"/>
+</app-tag>
 ```
 
 ***

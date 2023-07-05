@@ -45,6 +45,12 @@ demo测试网站：[antd pro](https://preview.pro.ant.design/)
 
 [treeSelect 和 treeSelects 组件](./doc/web/object/treeselect/readme.md)
 
+[input 组合输入框](./doc/web/object/input/readme.md)
+
+[checkbox 复选框](./doc/web/object/checkbox/readme.md)
+
+[radio 单选框](./doc/web/object/radio/readme.md)
+
 [upload 上传文件](./doc/web/object/upload/readme.md)
 
 [switch 开关](./doc/web/object/switch/readme.md)

@@ -46,6 +46,21 @@ WebSetValue==tabs.Tab21==close==Tab2==
 WebSetValue==tabs.Tab21--Tab1==close==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTabs" desc="页签组" className="cn.lz.web.plugin.antd.obj.AntdTabs" typeName="WebObject">
+   <node tag-name="div" class="ant-tabs-nav" role="tablist">
+      <node tag-name="div" class="ant-tabs-nav-wrap"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdTab" desc="单个页签" className="cn.lz.web.plugin.antd.obj.AntdTab" typeName="WebObject">
+   <node tag-name="div" class="ant-tabs-tab">
+      <node tag-name="div" class="ant-tabs-tab-btn" role="tab"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -66,6 +81,21 @@ WebSetValue==tabs.Tab12==add==Tab5==
 WebSetValue==tabs.Tab12==close==Tab2==
 WebSetValue==tabs.Tab12--Tab1==close==
 WebGetValue==Tab12==tabs.Tab12==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvTabs" desc="页签组" className="cn.lz.web.plugin.antdv.obj.AntdvTabs" typeName="WebObject">
+   <node tag-name="div" class="ant-tabs-nav" role="tablist">
+      <node tag-name="div" class="ant-tabs-nav-wrap"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvTab" desc="单个页签" className="cn.lz.web.plugin.antdv.obj.AntdvTab" typeName="WebObject">
+   <node tag-name="div" class="ant-tabs-tab">
+      <node tag-name="div" class="ant-tabs-tab-btn" role="tab"/>
+   </node>
+</app-tag>
 ```
 
 
@@ -91,6 +121,23 @@ WebDefPage==tabs2==功能演示==tabs2==
 WebSetValue==tabs2.Tab1==add==Tab4==
 WebSetValue==tabs2.Tab1==Tab 1==
 WebSetValue==tabs2.Tab1--Tab1==close==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiTabs" desc="页签组" className="cn.lz.web.plugin.eui.obj.EuiTabs" typeName="WebObject">
+   <node tag-name="div" class="el-tabs__header">
+      <node tag-name="div" class="el-tabs__nav-wrap">
+         <node tag-name="div" class="el-tabs__nav-scroll">
+            <node tag-name="div" class="el-tabs__nav" role="tablist"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="EuiTab" desc="单个页签" className="cn.lz.web.plugin.eui.obj.EuiTab" typeName="WebObject">
+   <node tag-name="div" class="el-tabs__item" role="tab"/>
+</app-tag>
 ```
 
 ***

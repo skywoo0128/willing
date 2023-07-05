@@ -43,6 +43,26 @@ WebSetValue==treeselect.复选框2==Node1/Child Node1,Node2/Child Node4==
 WebGetValue==复选框2==treeselect.复选框2==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTreeSelect" desc="弹出目录选择框" className="cn.lz.web.plugin.antd.obj.AntdTreeSelect" typeName="WebObject">
+   <node tag-name="div" class="ant-tree-select">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdTreeSelects" desc="弹出目录选择框" className="cn.lz.web.plugin.antd.obj.AntdTreeSelects" typeName="WebObject">
+   <node tag-name="div" class="ant-tree-select">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdTreeSelectMenu" desc="弹出的目录菜单" className="cn.lz.web.plugin.antd.obj.AntdTreeSelectMenu" typeName="WebTree">
+   <node tag-name="div" class="ant-select-tree" role="tree">
+      <node tag-name="div" class="ant-select-tree-list"/>
+   </node>
+</app-tag>
+```
 
 ***
 
@@ -65,6 +85,26 @@ WebSetValue==treeselect.复选框2==Node1/Child Node1,Node2/Child Node4==
 WebGetValue==复选框2==treeselect.复选框2==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdvTreeSelect" desc="弹出目录选择框" className="cn.lz.web.plugin.antdv.obj.AntdvTreeSelect" typeName="WebObject">
+   <node tag-name="div" class="ant-tree-select">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvTreeSelects" desc="弹出目录选择框" className="cn.lz.web.plugin.antdv.obj.AntdvTreeSelects" typeName="WebObject">
+   <node tag-name="div" class="ant-tree-select">
+      <node tag-name="div" class="ant-select-selector"/>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvTreeSelectMenu" desc="弹出的目录菜单" className="cn.lz.web.plugin.antdv.obj.AntdvTreeSelectMenu" typeName="WebTree">
+   <node tag-name="div" class="ant-select-tree" role="tree">
+      <node tag-name="div" class="ant-select-tree-list"/>
+   </node>
+</app-tag>
+```
 
 
 ***
@@ -83,6 +123,31 @@ WebGetValue==树形选择框==treemenu.树形选择框==
 
 WebSetValue==treemenu.单选==Asia/Bahrain==
 WebGetValue==单选==treemenu.单选==
+```
+
+对象匹配规则
+```xml
+<app-tag name="VueTreeSelect" desc="弹出目录选择框" className="cn.lz.web.plugin.vue.treeselect.obj.VueTreeSelect" typeName="WebObject">
+   <node tag-name="div" class="vue-treeselect__control">
+      <node tag-name="div" class="vue-treeselect__value-container"/>
+      <node tag-name="div" class="vue-treeselect__control-arrow-container"/>
+   </node>
+</app-tag>
+
+<app-tag name="VueTreeSelects" desc="弹出目录选择框" className="cn.lz.web.plugin.vue.treeselect.obj.VueTreeSelects" typeName="WebObject">
+   <node tag-name="div" class="vue-treeselect__control">
+      <node tag-name="div" class="vue-treeselect__value-container">
+         <node tag-name="div" class="vue-treeselect__multi-value"/>
+      </node>
+      <node tag-name="div" class="vue-treeselect__control-arrow-container"/>
+   </node>
+</app-tag>
+
+<app-tag name="VueTreeSelectMenu" desc="弹出的目录菜单" className="cn.lz.web.plugin.vue.treeselect.obj.VueTreeSelectMenu" typeName="WebTree">
+   <node tag-name="div" class="vue-treeselect__menu">
+      <node tag-name="div" class="vue-treeselect__list"/>
+   </node>
+</app-tag>
 ```
 
 ***

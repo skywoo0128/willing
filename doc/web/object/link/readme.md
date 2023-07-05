@@ -31,6 +31,15 @@ WebDefPage==link==导航==link==
 WebClick==link.Staticdemo==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdLink" desc="锚点" className="cn.lz.web.plugin.antd.obj.AntdLink" typeName="WebButton">
+   <node tag-name="div" class="ant-anchor-link">
+      <node tag-name="a" class="ant-anchor-link-title"/>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -44,6 +53,15 @@ WebClick==link.Staticdemo==
 ```
 WebDefPage==link==扩展组件==link==
 WebClick==link.Basicdemo==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvLink" desc="锚点" className="cn.lz.web.plugin.antdv.obj.AntdvLink" typeName="WebButton">
+   <node tag-name="div" class="ant-anchor-link">
+      <node tag-name="a" class="ant-anchor-link-title"/>
+   </node>
+</app-tag>
 ```
 
 
@@ -65,6 +83,15 @@ WebButtonGetCaption==主要链接==link.主要链接==
 WebButtonIsEnable==isEnabled==link.主要链接==
 
 WebClick==link.默认链接==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiLink" desc="锚点" className="cn.lz.web.plugin.eui.obj.EuiLink" typeName="WebButton">
+   <node tag-name="a" class="el-link">
+      <node tag-name="span" class="el-link--inner"/>
+   </node>
+</app-tag>
 ```
 
 ***

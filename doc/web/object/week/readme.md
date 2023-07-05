@@ -40,6 +40,32 @@ WebSetValue==date.请选择周==%EMPTY%==
 WebSetValue==date.开始周==%EMPTY%==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdWeekRange" desc="选择周范围" className="cn.lz.web.plugin.antd.obj.AntdWeekRange" typeName="WebObject">
+   <node tag-name="div" class="ant-picker-range">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+      </node>
+      <node tag-name="div" class="ant-picker-input"/>
+      <node tag-name="span" class="ant-picker-suffix">
+         <node tag-name="span" class="anticon-calendar"/>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdWeekPicker" desc="选择周" className="cn.lz.web.plugin.antd.obj.AntdWeekPicker" typeName="WebObject">
+   <node tag-name="div" class="ant-picker">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+         <node tag-name="span" class="ant-picker-suffix">
+            <node tag-name="span" class="anticon-calendar"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -64,6 +90,32 @@ WebGetValue==开始周==date.开始周==
 # 清空数据
 WebSetValue==date.请选择周==%EMPTY%==
 WebSetValue==date.开始周==%EMPTY%==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvWeekRange" desc="选择周范围" className="cn.lz.web.plugin.antdv.obj.AntdvWeekRange" typeName="WebObject">
+   <node tag-name="div" class="ant-picker-range">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+      </node>
+      <node tag-name="div" class="ant-picker-input"/>
+      <node tag-name="span" class="ant-picker-suffix">
+         <node tag-name="span" class="anticon-calendar"/>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvWeekPicker" desc="选择周" className="cn.lz.web.plugin.antdv.obj.AntdvWeekPicker" typeName="WebObject">
+   <node tag-name="div" class="ant-picker">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+         <node tag-name="span" class="ant-picker-suffix">
+            <node tag-name="span" class="anticon-calendar"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
 ```
 
 

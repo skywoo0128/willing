@@ -48,6 +48,27 @@ WebGetCellValue==树形Table==table.树形Table==Name==John Brown sr./John Brown
 WebGetCellValue==固定表头==table.固定表头==FullName=Edward 4==Column 2==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTable" desc="表格" className="cn.lz.web.plugin.antd.obj.AntdTable" typeName="WebTable">
+   <node tag-name="div" class="ant-table">
+      <node tag-name="div" class="ant-table-container">
+         <node tag-name="div" class="ant-table-content">
+            <node tag-name="table"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdFixedTable" desc="锁定表头的表格" className="cn.lz.web.plugin.antd.obj.AntdFixedTable" typeName="WebTable">
+   <node tag-name="div" class="ant-table">
+      <node tag-name="div" class="ant-table-container">
+         <node tag-name="div" class="ant-table-header"/>
+         <node tag-name="div" class="ant-table-body"/>
+      </node>
+   </node>
+</app-tag>
+```
 
 ***
 
@@ -71,6 +92,28 @@ WebRowSetSelected==table.树形表格==Name==John Brown sr./John Brown==true==
 WebRowSetSelected==table.树形表格==Name==John Brown sr./John Brown jr./Jimmy Brown==true==
 
 WebGetCellValue==固定表头==table.固定表头==FullName==Edrward 4==Column 2==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvTable" desc="表格" className="cn.lz.web.plugin.antdv.obj.AntdvTable" typeName="WebTable">
+   <node tag-name="div" class="ant-table">
+      <node tag-name="div" class="ant-table-container">
+         <node tag-name="div" class="ant-table-content">
+            <node tag-name="table"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvFixedTable" desc="锁定表头的表格" className="cn.lz.web.plugin.antdv.obj.AntdvFixedTable" typeName="WebTable">
+   <node tag-name="div" class="ant-table">
+      <node tag-name="div" class="ant-table-container">
+         <node tag-name="div" class="ant-table-header"/>
+         <node tag-name="div" class="ant-table-body"/>
+      </node>
+   </node>
+</app-tag>
 ```
 
 
@@ -99,6 +142,49 @@ WebGetCellValue==固定表格==固定table.固定表格==日期==2016-05-02==地
 
 WebDefPage==树形表格==功能演示==树形表格==
 WebGetCellValue==树形表格值==树形表格.树形表格==日期==2016-05-01/2016-05-01==地址==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiTable" desc="表格" className="cn.lz.web.plugin.eui.obj.EuiTable" typeName="WebTable">
+   <node tag-name="div" class="el-table">
+      <node tag-name="div" class="el-table__header-wrapper"/>
+      <node tag-name="div" class="el-table__body-wrapper"/>
+   </node>
+</app-tag>
+```
+
+
+
+***
+
+### jexcel 4
+
+【[jexcel 4 的 table 组件](https://bossanova.uk/jspreadsheet/v4/examples/column-types)】的执行效果
+
+![执行效果](https://raw.gitmirror.com/skywoo0128/willing/main/doc/web/object/table/jexcel.gif "执行效果")
+
+
+**自动化脚本**
+```
+WebDefPage==jexcel==功能演示==jexcel==
+WebSetCellValue==jexcel.Car==2==Stock==checkBox==false==
+WebSetCellValue==jexcel.Car==2==Make==select==Nissan==
+WebSetCellValue==jexcel.Car==Make(Nissan)==Car==input==Nissan==
+
+WebSetCellValue==jexcel.Car==2==Photo==image==%jexcel.图片%==
+WebSetCellValue==jexcel.Car==2==Available==date==20230921==
+```
+
+对象匹配规则
+```xml
+<app-tag name="JexcelTable" desc="Jexcel表格" className="cn.lz.web.plugin.jexcel.obj.JexcelTable" typeName="WebTable">
+   <node tag-name="table" class="jexcel"/>
+</app-tag>
+
+<app-tag name="JexcelMenu" desc="Jexcel表格的弹出菜单" className="cn.lz.web.plugin.jexcel.obj.JexcelMenu" typeName="WebObject">
+   <node tag-name="div" class="jexcel_contextmenu"/>
+</app-tag>
 ```
 
 ***

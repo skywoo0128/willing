@@ -38,6 +38,32 @@ WebGetValue==开始时间==time.开始时间==
 WebSetValue==time.开始时间==%EMPTY%==
 ```
 
+对象匹配规则
+```xml
+<app-tag name="AntdTimePicker" desc="选择时间" className="cn.lz.web.plugin.antd.obj.AntdTimePicker" typeName="WebObject">
+   <node tag-name="div" class="ant-picker">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+         <node tag-name="span" class="ant-picker-suffix">
+            <node tag-name="span" class="anticon-clock-circle"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdTimeRange" desc="选择时间范围" className="cn.lz.web.plugin.antd.obj.AntdTimeRange" typeName="WebObject">
+   <node tag-name="div" class="ant-picker-range">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+      </node>
+      <node tag-name="div" class="ant-picker-input"/>
+      <node tag-name="span" class="ant-picker-suffix">
+         <node tag-name="span" class="anticon-clock-circle"/>
+      </node>
+   </node>
+</app-tag>
+```
+
 
 ***
 
@@ -60,6 +86,32 @@ WebSetValue==time.选择时间==%EMPTY%==
 WebSetValue==time.时间范围==090310,103030==
 WebGetValue==时间范围==time.时间范围==
 WebSetValue==time.时间范围==%EMPTY%==
+```
+
+对象匹配规则
+```xml
+<app-tag name="AntdvTimePicker" desc="选择时间" className="cn.lz.web.plugin.antdv.obj.AntdvTimePicker" typeName="WebObject">
+   <node tag-name="div" class="ant-picker">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+         <node tag-name="span" class="ant-picker-suffix">
+            <node tag-name="span" class="anticon-clock-circle"/>
+         </node>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="AntdvTimeRange" desc="选择时间范围" className="cn.lz.web.plugin.antdv.obj.AntdvTimeRange" typeName="WebObject">
+   <node tag-name="div" class="ant-picker-range">
+      <node tag-name="div" class="ant-picker-input">
+         <node tag-name="input" type="text"/>
+      </node>
+      <node tag-name="div" class="ant-picker-input"/>
+      <node tag-name="span" class="ant-picker-suffix">
+         <node tag-name="span" class="anticon-clock-circle"/>
+      </node>
+   </node>
+</app-tag>
 ```
 
 
@@ -88,6 +140,27 @@ WebDefPage==timerange==功能演示==timerange==
 WebSetValue==timerange.开始时间==200510;223003==
 WebGetValue==开始时间==timerange.开始时间==
 WebSetValue==timerange.开始时间==%EMPTY%==
+```
+
+对象匹配规则
+```xml
+<app-tag name="EuiTimePicker" desc="选择时间" className="cn.lz.web.plugin.eui.obj.EuiTimePicker" typeName="WebObject">
+   <node tag-name="div" class="el-date-editor">
+      <node tag-name="input" type="text" class="el-input__inner"/>
+      <node tag-name="span" class="el-input__prefix">
+         <node tag-name="i" class="el-icon-time"/>
+      </node>
+   </node>
+</app-tag>
+
+<app-tag name="EuiTimeRange" desc="选择时间范围" className="cn.lz.web.plugin.eui.obj.EuiTimeRange" typeName="WebObject">
+   <node tag-name="div" class="el-date-editor--timerange">
+      <node tag-name="i" class="el-range__icon"/>
+      <node tag-name="input" type="text" class="el-range-input"/>
+      <node tag-name="span" class="el-range-separator"/>
+      <node tag-name="input" type="text" class="el-range-input"/>
+   </node>
+</app-tag>
 ```
 
 ***
